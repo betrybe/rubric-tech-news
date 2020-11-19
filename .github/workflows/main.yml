@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Pytest Evaluator Step
-        uses: betrybe/pytest-evaluator-action@change-img
+        uses: betrybe/pytest-evaluator-action@add-deps
         with:
           repository_main_branch: main
         id: pytest_evaluator
