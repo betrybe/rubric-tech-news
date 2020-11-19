@@ -1,7 +1,7 @@
 {
   "requirements": [
     {
-      "identifier": "test_desafio1",
+      "identifier": "test_validar_metodo_fetch_content_quando_status_200",
       "description": "requirement #1",
       "bonus": false
     }
