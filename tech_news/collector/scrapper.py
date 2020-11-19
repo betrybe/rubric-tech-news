@@ -16,7 +16,7 @@ def fetch_content(url, timeout=3, delay=0.5):
         response = requests.get(url, timeout=timeout)
         response.raise_for_status()
     except (requests.ReadTimeout, requests.HTTPError) as http_error:
-        return "error"
+        return ""
     else:
         return response.text
 
